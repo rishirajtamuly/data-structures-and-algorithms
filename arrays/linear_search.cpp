@@ -27,7 +27,7 @@ int main() {
 	}
 	
 	if(!isPresent) {	
-			cout << "Element " << x << " is not present in array " << endl;
+		cout << "Element " << x << " is not present in array " << endl;
 	}
 	
 	return 0;
