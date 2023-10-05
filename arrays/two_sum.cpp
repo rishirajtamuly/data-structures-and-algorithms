@@ -41,7 +41,7 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 #include<vector>
 using namespace std;
 
-void doublet(vector<int>& myVector, int x) {
+void twoSum(vector<int>& myVector, int x) {
     for(int i = 0; i < myVector.size() - 1; i++) {
         if(myVector[i] + myVector[i + 1] == x) {
             cout << "[" << i << ", " << i + 1 << "]" << endl;
@@ -65,7 +65,7 @@ int main() {
         nums.push_back(ele);
     }
 
-    doublet(nums, target);
+    twoSum(nums, target);
 
     return 0;
 }
